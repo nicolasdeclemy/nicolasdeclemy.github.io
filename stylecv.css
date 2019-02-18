@@ -1,0 +1,74 @@
+body
+{
+font-style: italic;
+text-align: center;
+text-decoration: color;
+color: #000000;
+}
+#images{
+background-image: url("images/flammes.jpg");
+color: white;
+}
+h3 {
+  color: White;
+  text-shadow: 2px 2px 4px #FF4500;
+}
+.jumbotron{
+  background-image: url("images/irlande.jpg");
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+h2{
+  font-style:italic;
+  text-align: center;
+  text-decoration: color;
+  color: #ffffff;
+}
+h5{
+  font-style: italic;
+  text-align: center;
+  text-decoration: color;
+  color: #ffffff;
+}
+label{
+  font-weight: bold;
+  font-family: "Verdana";
+  text-align: center;
+  text-decoration: color;
+  color: #800000;
+}
+p1{
+  font-weight: normal;
+  font-family: "Verdana";
+  text-align: center;
+  text-decoration: color;
+  color: #228B22;
+}
+.progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+
+  .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes show  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
